@@ -1,0 +1,37 @@
+.sacola{
+  width: 60%;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+  padding: 2em;
+}
+
+.sacola .compras{
+  display: flex;
+}
+
+
+.sacola .compras table{
+  width: 100%;
+  text-align: left;
+  margin-top: 4em;
+}
+
+.sacola .compras table tr,th{
+  padding: 1em 0 1em 0em;
+}
+
+.sacola .compras table tr{
+  color: #919191;
+}
+
+.sacola .compras table td{
+}
+
+.sacola .compras table td img{
+
+  width: 10em;
+}
+.sacola .compras table td span{
+  
+}
