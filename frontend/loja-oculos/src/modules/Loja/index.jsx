@@ -1,7 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export const Loja = ()=>{
-  return(<div>
-    Loja
-  </div>)
-}
+export const Loja = () => {
+  return <div>Loja</div>;
+};

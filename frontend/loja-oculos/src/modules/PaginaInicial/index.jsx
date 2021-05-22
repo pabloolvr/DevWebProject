@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import { NavBar } from "../common/NavBar";
 
-export const PaginaInicial = ()=>{
-  return(
-    <div>
-      Ola Pagina Inicial
-    </div>
-  )
-}
+export const PaginaInicial = () => {
+  return <div>
+    aosdaosjdoasjdoaijs
+  </div>;
+};

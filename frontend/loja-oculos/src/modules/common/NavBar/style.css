@@ -1,0 +1,15 @@
+:root{
+  --black-background: black;
+  --text-color: white;
+}
+
+.navbar{
+  background-color: var(--black-background);
+  height: 3.5rem;
+  color: var(--text-color);
+  display: flex;
+}
+
+.navbar *{
+  padding: 0.5em 0.5em 0em 0.5em;
+}
