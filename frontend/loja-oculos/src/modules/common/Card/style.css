@@ -1,28 +1,53 @@
 .card-oculos{
-  background-color: aqua;
+  background-color: rgb(221, 217, 217);
   width: 17rem;
   height: 22rem;
 }
 
-.card-oculos .fav-icon{
-  background-color: grey;
+.card-oculos .fav-area{
+  background-image: url(../../assets/fav-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3em;
   height: 3em;
+  display: block;
+  padding-right: 55px;
+  padding-top: 55px;
 }
 
-.card-oculos .photo-product{
+.card-oculos .photo-area {
   background-image: url(../../assets/sunglass-example.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: antiquewhite;
   height: 12em;
 }
 
-.card-oculos .description{
-  background-color: beige;
+.card-oculos .name-area {
+  height: 4em;
+  justify-content: center;
+}
+
+.name-area .name-value {
+  font-size: 1.17em;
+  font-weight: bold;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000;
+  text-align: center;
+  line-height: 4em;
+  text-transform: uppercase;
+}
+
+.card-oculos .price-area {
   height: 3em;
 }
 
-.card-oculos .price{
-  background-color:goldenrod;
-  height: 4em;
+.price-area .price-value {
+  padding: 0 5px;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 3em;
 }

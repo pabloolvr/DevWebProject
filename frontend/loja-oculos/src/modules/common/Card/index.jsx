@@ -3,18 +3,15 @@ import './style.css'
 
 export const Card = () => {
   return <div className="card-oculos">
-    <div className="fav-icon">
-      fav-icon
+    <div className="fav-area">
     </div>
-    <div className="photo-product">
-      
-      product
+    <div className="photo-area">
     </div>
-    <div className="description">
-      description
+    <div className="name-area">
+      <p className="name-value">Nome do Produto</p>
     </div>
-    <div className="price">
-      price
+    <div className="price-area">
+      <p className="price-value">R$ 99999,99</p>
     </div>
 
   </div>;
