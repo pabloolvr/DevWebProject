@@ -5,17 +5,24 @@
 }
 
 .card-oculos .fav-icon{
+  background-color: grey;
   height: 3em;
 }
 
 .card-oculos .photo-product{
+  background-image: url(../../assets/sunglass-example.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: antiquewhite;
   height: 12em;
 }
 
 .card-oculos .description{
+  background-color: beige;
   height: 3em;
 }
 
 .card-oculos .price{
+  background-color:goldenrod;
   height: 4em;
 }

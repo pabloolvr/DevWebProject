@@ -7,6 +7,7 @@ export const Card = () => {
       fav-icon
     </div>
     <div className="photo-product">
+      
       product
     </div>
     <div className="description">
