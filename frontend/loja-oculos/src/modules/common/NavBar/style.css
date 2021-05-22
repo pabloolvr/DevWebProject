@@ -11,5 +11,11 @@
 }
 
 .navbar *{
-  padding: 0.5em 0.5em 0em 0.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+.navbar ul{
+  display: flex;
+  font-weight: 400;
 }
