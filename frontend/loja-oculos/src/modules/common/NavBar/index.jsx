@@ -6,5 +6,10 @@ export const NavBar = () => {
   return (<div class="navbar">
     <h2>OCULOS OCULOS</h2>
     <Busca></Busca>
+    <ul>
+      <li>Encontre uma loja</li>
+      <li>Minha Conta</li>
+      <li>Sacola</li>
+    </ul>
   </div>);
 };
