@@ -14,8 +14,37 @@
   padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
+.navbar h2{
+  font-size: 1.5em;
+}
 
 .navbar ul{
   display: flex;
   font-weight: 400;
 }
+
+@media(max-width:600px){
+  .navbar{
+    background-color: var(--black-background);
+    height: 5rem;
+    color: var(--text-color);
+    display: flex;
+  }
+  
+  .navbar *{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  }
+  
+  .navbar h2{
+    padding: 1.2em 0 0 0;
+    font-size: 1em;
+  }
+  
+  .navbar ul{
+    display: flex;
+    font-weight: 400;
+  }
+  
+}
+
+
