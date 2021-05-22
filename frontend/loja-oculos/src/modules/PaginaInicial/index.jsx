@@ -1,8 +1,9 @@
 import React from "react";
-import { NavBar } from "../common/NavBar";
+import { Card } from '../common/Card'
+
 
 export const PaginaInicial = () => {
   return <div>
-    aosdaosjdoasjdoaijs
+    <Card></Card>
   </div>;
 };

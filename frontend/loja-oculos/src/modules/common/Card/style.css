@@ -1,0 +1,21 @@
+.card-oculos{
+  background-color: aqua;
+  width: 17rem;
+  height: 22rem;
+}
+
+.card-oculos .fav-icon{
+  height: 3em;
+}
+
+.card-oculos .photo-product{
+  height: 12em;
+}
+
+.card-oculos .description{
+  height: 3em;
+}
+
+.card-oculos .price{
+  height: 4em;
+}
