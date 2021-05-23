@@ -17,6 +17,9 @@ export const Sacola = () => {
               <th>PRECO TOTAL</th>
             </tr>
             <ItemSacola></ItemSacola>
+            <ItemSacola></ItemSacola>
+            <ItemSacola></ItemSacola>
+            <ItemSacola></ItemSacola>
           </tbody>
         </table>
         <table>
