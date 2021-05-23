@@ -1,0 +1,42 @@
+.resumo-pedido {
+  width: 100%;
+  color: black;
+}
+
+
+.resumo-pedido td p {
+  width: 100%;
+  padding: 1em 0 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+.resumo-pedido td p span {
+  position: relative;
+}
+
+.resumo-pedido td input {
+  margin-right: 1em;
+  outline: none;
+  border: 0.1em solid #cbcbcb;
+  height: 3em;
+  padding-left: 1em;
+}
+
+.resumo-pedido td button {
+  border-style: none;
+  outline: none;
+  height: 3em;
+  width: 7em;
+  background-color: black;
+  border-radius: 0.5em;
+  color: white;
+}
+
+.resumo-pedido td .terminaCompra {
+  border-style: none;
+  height: 3em;
+  width: 100%;
+  background-color: rgb(36, 177, 18);
+  border-radius: 0.5em;
+  color: white;
+}
