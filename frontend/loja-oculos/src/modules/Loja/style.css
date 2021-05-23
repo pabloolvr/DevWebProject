@@ -1,0 +1,31 @@
+body {
+    background-color: #fff;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+.products-wrapper {
+    padding-top: 30px;
+}
+
+.products-wrapper .shell {
+    display: flex;
+}
+
+.shell {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1365px;
+    width: 100%;
+}
+
+.products-wrapper .wrapper-left {
+    background-color: teal;
+    width: 350px;
+    flex: 1;
+}
+
+.products-wrapper .wrapper-right {
+    background-color: tomato;
+    width: calc(100%-380px);
+    flex: 1;
+}
