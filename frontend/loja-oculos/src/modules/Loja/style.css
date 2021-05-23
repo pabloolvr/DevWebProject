@@ -9,6 +9,7 @@ body {
 
 .products-wrapper .shell {
     display: flex;
+    justify-content: space-between;
 }
 
 .shell {
@@ -18,13 +19,13 @@ body {
     width: 100%;
 }
 
-.products-wrapper .wrapper-left {
+.products-wrapper .shell .wrapper-left {
     background-color: teal;
     width: 350px;
     flex: 1;
 }
 
-.products-wrapper .wrapper-right {
+.products-wrapper .shell .wrapper-right {
     background-color: tomato;
     width: calc(100%-380px);
     flex: 1;
