@@ -24,6 +24,7 @@ Your functionality: Create a functionality that is specific to your application.
 The system must provide accessibility requirements and provide good usability. The system must be responsive.
 
 ## Descrição do Projeto
+Diagrama de Navegação:
 ![NavigationDiagram](https://user-images.githubusercontent.com/48020553/119233878-5461f780-bb01-11eb-8074-1bcd124773c3.jpg)
 ## Comentários Sobre o Código
 ## Plano de Testagem
