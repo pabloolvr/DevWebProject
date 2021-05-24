@@ -6,7 +6,7 @@ import "./style.css";
 export const Sacola = () => {
   return (
     <div className="sacola">
-      <h2> Sacola </h2>
+      <h1> Sacola </h1>
       <div className="sacola-area">
         <table className="compras">
           <tbody>
