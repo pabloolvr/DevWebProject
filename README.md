@@ -1,9 +1,9 @@
 # DevWebProject
 
-Web Projet for SCC0219
+Web Project for SCC0219
 
 ## Requirements
-The system must have 2 types of users: Clients and Administrators
+The system must have 2 types of users: Customers and Administrators
 
   Administrators are responsible for registering/managing administrators, customers, and products/services provided. The application already comes with an account admin with password admin.
 
