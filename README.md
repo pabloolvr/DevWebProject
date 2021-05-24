@@ -1,8 +1,8 @@
 # DevWebProject
 
-Projeto de SCC0219
+Web Projet for SCC0219
 
-## Requisitos
+## Requirements
 The system must have 2 types of users: Clients and Administrators
 
   Administrators are responsible for registering/managing administrators, customers, and products/services provided. The application already comes with an account admin with password admin.
@@ -23,12 +23,12 @@ Your functionality: Create a functionality that is specific to your application.
 
 The system must provide accessibility requirements and provide good usability. The system must be responsive.
 
-## Descrição do Projeto
-Diagrama de Navegação:
+## Project Descriotion
+Navigation Diagram:
 ![NavigationDiagram](https://user-images.githubusercontent.com/48020553/119233878-5461f780-bb01-11eb-8074-1bcd124773c3.jpg)
-## Comentários Sobre o Código
-## Plano de Testagem
-## Resultados dos Testes
-## Procedimentos de Execução
-## Problemas
- Comentários
+## Source comments
+## Test plan
+## Test results
+## Execution procedure
+## Issues
+ Comments
