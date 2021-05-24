@@ -31,4 +31,4 @@ Diagrama de Navegação:
 ## Resultados dos Testes
 ## Procedimentos de Execução
 ## Problemas
- Comentárioss
+ Comentários
