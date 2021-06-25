@@ -1,11 +1,7 @@
 import React from "react";
-<<<<<<< Updated upstream
 import { Card } from '../common/Card'
-=======
-import { Card } from "../common/Card";
 import { SideOption } from '../common/SideOptions'
 import "./styles/styles.css";
->>>>>>> Stashed changes
 
 export const PaginaInicial = () => {
   return (
