@@ -1,0 +1,11 @@
+.container{
+  display: flexbox;
+  flex-direction: column;
+  padding: 1em;
+  background-color: #f6f6f6;
+}
+
+
+.buy-container{
+
+}

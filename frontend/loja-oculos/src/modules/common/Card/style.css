@@ -1,11 +1,10 @@
 .card-oculos{
-  background-color: rgb(221, 217, 217);
-  width: 17rem;
+  background-color: #ffff;
+  width: 15rem;
   height: 22rem;
 }
 
 .card-oculos .fav-area{
-  background-image: url(../../assets/fav-image.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 3em;
@@ -16,7 +15,6 @@
 }
 
 .card-oculos .photo-area {
-  background-image: url(../../assets/sunglass-example.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 12em;
