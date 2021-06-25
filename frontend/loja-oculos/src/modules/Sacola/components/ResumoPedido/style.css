@@ -32,11 +32,22 @@
   color: white;
 }
 
-.resumo-pedido td .terminaCompra {
+.resumo-pedido td .terminaCompraBtn {
   border-style: none;
   height: 3em;
   width: 100%;
   background-color: rgb(36, 177, 18);
   border-radius: 0.5em;
   color: white;
+}
+
+.resumo-pedido td .terminaCompraBtn:hover {
+  transition-duration: 1s;
+  background-color: black;
+  cursor: pointer;
+}
+
+.resumo-pedido td .finish-page {
+  color: white;
+  text-decoration: none;
 }

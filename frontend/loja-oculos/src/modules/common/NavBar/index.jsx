@@ -1,15 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './style.css'
 import { Busca } from './components/Busca'
 
 export const NavBar = () => {
   return (<div className="navbar">
-    <h2>OCULOS OCULOS</h2>
+    <div class="store-name">
+      <h2><Link to="/" className="main-page-btn">OCULOS OCULOS</Link></h2>
+    </div>
+    
     <Busca></Busca>
     <ul>
-      <li>Encontre uma loja</li>
       <li>Minha Conta</li>
-      <li>Sacola</li>
+      <li><Link to="/sacola" className="main-page-btn">Sacola</Link></li>
     </ul>
+    
   </div>);
 };

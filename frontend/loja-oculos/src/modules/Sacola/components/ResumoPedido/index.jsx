@@ -1,4 +1,6 @@
 import "./style.css";
+import { Link } from "react-router-dom";
+
 export const ResumoPedido = () => {
   return (
     <tr className="resumo-pedido">
@@ -15,7 +17,7 @@ export const ResumoPedido = () => {
         </div>
         <p><span>Subtotal</span> <span>80 Reais</span></p>
         <p><span>Total</span> <span>80 Reais</span></p>
-        <button className="terminaCompra">Finalizar Compra</button>
+        <button className="terminaCompraBtn"><Link to="/finalizar" className="finish-page">Finalizar Compra</Link></button>
       </td>
     </tr>
   );

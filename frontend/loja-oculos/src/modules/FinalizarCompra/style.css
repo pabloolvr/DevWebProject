@@ -1,0 +1,36 @@
+.sacola {
+  width: 80%;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+  padding: 2em;
+}
+
+.sacola .sacola-area {
+  width: 100%;
+  display: flex;
+  margin-top: 4em;
+  justify-content: space-between;
+}
+
+.sacola .sacola-area .compras {
+  text-align: left;
+}
+
+.sacola .sacola-area .compras td,
+th {
+  padding: 1em 3em 1em 0em;
+}
+
+.sacola .sacola-area tr th {
+  border-bottom: 1px solid rgb(180, 180, 180);
+  text-align: left;
+}
+
+.sacola .sacola-area .compras tr td {
+  color: #919191;
+}
+
+.sacola .sacola-area .compras tr td img {
+  width: 10em;
+}

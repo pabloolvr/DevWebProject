@@ -23,6 +23,22 @@
   font-weight: 400;
 }
 
+.navbar .main-page-btn {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+  outline: 0;
+  font-size: 1em;
+  color: aliceblue;
+}
+
+
+
 @media(max-width:600px){
   .navbar{
     background-color: var(--black-background);

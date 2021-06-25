@@ -4,6 +4,7 @@ import { NavBar } from "./modules/common/NavBar";
 import { Loja } from "./modules/Loja";
 import { PaginaInicial } from "./modules/PaginaInicial";
 import { Sacola } from "./modules/Sacola";
+import { FinalizarCompra } from "./modules/FinalizarCompra";
 
 export const SetupRouter = () => {
   return (
@@ -18,6 +19,9 @@ export const SetupRouter = () => {
         </Route>
         <Route exact path="/sacola">
           <Sacola></Sacola>
+        </Route>
+        <Route exact path="/finalizar">
+          <FinalizarCompra></FinalizarCompra>
         </Route>
       </Switch>
     </Router>
