@@ -1,11 +1,13 @@
-import { makeObservable } from "mobx";
+import { makeObservable, observable } from "mobx";
 import { cart } from "./stores/Cart";
 
 class GlobalStore {
   cart;
   constructor() {
     this.cart = cart;
-    makeObservable(this);
+    makeObservable(this, {
+      cart: observable,
+    });
   }
 }
 
