@@ -11,7 +11,7 @@ export const SideOption = ()=>{
           <li>Estilo</li>
           <li>Cor da Armação</li>
           <li>Coleção</li>
-          <l1>Faixa de Preço</l1>
+          <li>Faixa de Preço</li>
         </ul>
       </div>
     </div>
