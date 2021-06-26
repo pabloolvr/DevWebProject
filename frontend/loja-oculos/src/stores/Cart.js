@@ -11,6 +11,7 @@ class Cart {
       addProduct: action,
       eachProductListSumLen: computed,
       removeProduct: action,
+      totalPrice: computed,
     });
   }
 
@@ -31,6 +32,16 @@ class Cart {
     return this.productList.map((value) => {
       return value.id;
     });
+  }
+
+  get totalPrice() {
+    let total = 0;
+
+    this.productList.forEach((value) => {
+      total += Number(value.price) * Number(value.quantity);
+    });
+
+    return total.toFixed(2);
   }
 
   addProduct(product) {
