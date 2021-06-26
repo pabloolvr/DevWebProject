@@ -8,6 +8,7 @@
   height: 3.5rem;
   color: var(--text-color);
   display: flex;
+  margin-bottom: 1.5px;
 }
 
 .navbar *{

@@ -1,0 +1,60 @@
+.account-menu {
+  width: 277px;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding: 0;
+  margin-right: 0;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;  
+}
+
+.container {
+    display: flex;
+}
+
+.header-userinfo {
+    padding: 20px 0;
+    margin-bottom: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.user-image-box {
+    width: 60px;
+    height: 60px;
+}
+
+.account-menu .header-userinfo .user-image-box .user-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icon-perfil.svg);
+}
+
+.user-greeting span {
+    font-weight: bold;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
+    text-align: center;
+    line-height: 4em;
+    text-transform: uppercase;
+}
+
+a {
+    margin: 0;
+    position: relative;
+    padding-left: 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;  
+}
+
+a.b--action-primary {
+    border-left-color: #000;
+    font-weight: 700;
+    color: #000;
+}

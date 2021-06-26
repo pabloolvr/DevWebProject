@@ -1,0 +1,30 @@
+:root{
+  --black-background: black;
+  --text-color: white;
+}
+
+.navbar2 {
+  background-color: var(--black-background);
+  height: 3.5rem;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar2 *{
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.navbar2 ul{
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.navbar2 .store-btn {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1em;
+  color: aliceblue;
+}
