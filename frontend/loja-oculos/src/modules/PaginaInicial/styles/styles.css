@@ -1,11 +1,19 @@
 .container{
-  display: flexbox;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   padding: 1em;
   background-color: #f6f6f6;
+  height: calc(100vh - 3.5rem);
+  padding: 7rem;
 }
 
 
 .buy-container{
+  overflow-y: auto;
+}
 
+.products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

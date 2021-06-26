@@ -1,0 +1,15 @@
+.filtro{
+  margin: 0 2em 0 0;
+}
+
+
+.filtro ul{
+}
+
+.filtro ul li{
+  margin: 2em 0;
+}
+
+.filtro ul li:hover{
+  cursor: pointer;
+}

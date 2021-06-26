@@ -5,7 +5,7 @@ import { Busca } from './components/Busca'
 
 export const NavBar = () => {
   return (<div className="navbar">
-    <div class="store-name">
+    <div className="store-name">
       <h2><Link to="/" className="main-page-btn">OCULOS OCULOS</Link></h2>
     </div>
     

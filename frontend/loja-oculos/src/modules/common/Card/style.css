@@ -2,6 +2,7 @@
   background-color: #ffff;
   width: 15rem;
   height: 22rem;
+  margin: 1em;
 }
 
 .card-oculos .fav-area{
@@ -48,4 +49,11 @@
   margin-bottom: 5px;
   text-align: center;
   line-height: 3em;
+}
+
+.photo-area{
+}
+
+.photo-area img{
+  width: 100%;
 }

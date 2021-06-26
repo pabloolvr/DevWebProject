@@ -1,24 +1,11 @@
-import { autorun, computed, makeObservable, observable } from "mobx";
+import { makeObservable } from "mobx";
+import { cart } from "./stores/Cart";
 
 class GlobalStore {
-  microStoreLists = [];
-
-  constructor(microStores) {
-    makeObservable(this, {
-      microStoreLists: observable,
-      paginaInicialStore: computed,
-    });
-
-    autorun(() => {
-      const microStore = Object.keys(microStores);
-      microStore.forEach((value) => {
-        this.microStoreLists.push(microStore[value]);
-      });
-    });
-  }
-
-  get paginaInicialStore() {
-    return this.microStoreLists[0];
+  cart;
+  constructor() {
+    this.cart = cart;
+    makeObservable(this);
   }
 }
 

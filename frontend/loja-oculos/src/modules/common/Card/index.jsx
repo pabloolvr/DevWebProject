@@ -1,18 +1,23 @@
 import React from "react";
-import './style.css'
+import "./style.css";
+import {observer } from 'mobx-react';
 
-export const Card = () => {
-  return <div className="card-oculos">
-    <div className="fav-area">
+export const Card = observer(({ name, price,image }) => {
+  return (
+    <div className="card-oculos">
+      <div className="fav-area"></div>
+      <div className="photo-area">
+        <img
+          alt="glasses"
+          src={`data:image/*;base64,${image}`}
+        />
+      </div>
+      <div className="name-area">
+        <p className="name-value">{name}</p>
+      </div>
+      <div className="price-area">
+        <p className="price-value">R$ {price.toFixed(2)}</p>
+      </div>
     </div>
-    <div className="photo-area">
-    </div>
-    <div className="name-area">
-      <p className="name-value">Nome do Produto</p>
-    </div>
-    <div className="price-area">
-      <p className="price-value">R$ 99999,99</p>
-    </div>
-
-  </div>;
-};
+  );
+})
