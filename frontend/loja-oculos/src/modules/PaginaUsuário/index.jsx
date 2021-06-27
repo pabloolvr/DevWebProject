@@ -32,7 +32,7 @@ export const PaginaUsuario = () => {
                                 <div className="data-field">
                                     <div>
                                         <label className="field-name">
-                                            Nome Compleot
+                                            Nome Completo
                                         </label>
                                     </div>
                                     <div className="field">
