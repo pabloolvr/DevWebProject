@@ -17,7 +17,10 @@
   margin-right: 0;
   float: right;
   font-style: italic;
-  background-color: lightgray;  
+}
+
+.links-menu {
+    font-size: 40px;
 }
 
 .container {
@@ -74,6 +77,7 @@ a {
 
 .field-name {
     color: black;
+    width:max-content;
 }
 
 
