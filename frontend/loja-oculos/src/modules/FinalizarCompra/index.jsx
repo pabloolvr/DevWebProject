@@ -49,7 +49,7 @@ export const FinalizarCompra = () => {
                             })}
                         <tr><td>+<hr/></td></tr>
                         <tr><td>{cart.totalPrice}</td></tr>
-                        <tr><td><button>Finalizar</button></td></tr>
+                        <tr><td><div className="button-area"><button>Finalizar</button></div></td></tr>
                     </tbody>
                 </table>
             </div>

@@ -17,3 +17,17 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.button-area button{
+  border-style: none;
+  background: none;
+  height: 100%;
+  background-color: #000;
+  color: white;
+  padding: 0.5em;
+  border-radius: 1em 1em 1em 1em;
+}
+
+.button-area button:hover{
+  cursor: pointer;
+}
