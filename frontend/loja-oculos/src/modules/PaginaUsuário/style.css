@@ -67,6 +67,12 @@ a {
     color: #999;  
 }
 
+.account-page {
+    border-style: solid;
+    margin: 1px;
+    border-color: black;
+}
+
 .account-page-body {
     padding: .75rem;
 }
