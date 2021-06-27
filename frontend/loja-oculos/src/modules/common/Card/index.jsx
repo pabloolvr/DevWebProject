@@ -17,8 +17,10 @@ export const Card = observer(({ props }) => {
 
   return (
     <div className="card-oculos">
-      <button onClick={()=>{addProduct()}}>Add in cart</button>
-      <button onClick={()=>{removeProduct()}}>Remove from cart</button>
+      <div className="button-area">
+        <button onClick={()=>{addProduct()}}>Add in cart</button>
+        <button onClick={()=>{removeProduct()}}>Remove from cart</button>
+      </div>
       <div className="fav-area"></div>
       <div className="photo-area">
         <img alt="glasses" src={`data:image/*;base64,${image}`} />
