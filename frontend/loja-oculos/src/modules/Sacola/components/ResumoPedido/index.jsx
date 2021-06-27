@@ -1,7 +1,11 @@
 import "./style.css";
 import { Link } from "react-router-dom";
+import { globalStore } from "../../../../GlobalStore";
 
 export const ResumoPedido = () => {
+
+  const { cart } = globalStore;
+
   return (
     <tr className="resumo-pedido">
       <td>
@@ -15,8 +19,7 @@ export const ResumoPedido = () => {
         <input placeholder="Código de Desconto"></input>
         <button> adicionar</button>
         </div>
-        <p><span>Subtotal</span> <span>80 Reais</span></p>
-        <p><span>Total</span> <span>80 Reais</span></p>
+        <p><span>Total</span> <span>{cart.totalPrice} Reais</span></p>
         <button className="terminaCompraBtn"><Link to="/finalizar" className="finish-page">Finalizar Compra</Link></button>
       </td>
     </tr>

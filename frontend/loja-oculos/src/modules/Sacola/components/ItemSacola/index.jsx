@@ -1,19 +1,22 @@
 import "./style.css";
-import oculos from "../../../assets/sunglass-example.png";
-export const ItemSacola = () => {
+export const ItemSacola = ({props}) => {
+
+  const { name,image, quantity,price} = props;
+
+
   return (
     <tr className="item-sacola">
       <td>
-        <img src={oculos} alt="imagem do oculos" />
+        <img src={`data:image/*;base64,${image}`} alt="imagem do oculos" />
       </td>
       <td>
-        <div>Descrição do oculos</div>
+        <div>{name}</div>
       </td>
       <td>
-        <div>quantidade</div>
+        <div>{quantity}</div>
       </td>
       <td>
-        <div>preço</div>
+        <div>{(price*quantity).toFixed(2)}</div>
       </td>
     </tr>
   );

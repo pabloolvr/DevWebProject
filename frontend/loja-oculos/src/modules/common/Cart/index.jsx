@@ -17,7 +17,7 @@ export const CartComponent = observer(() => {
             {" "} 
             produto(s) no carrinho!
           </div>
-          <Link to="/finalizar">Ir para carrinho</Link>
+          <Link to="/sacola">Ir para Sacola</Link>
         </div>)
         :(<div></div>)
       }
