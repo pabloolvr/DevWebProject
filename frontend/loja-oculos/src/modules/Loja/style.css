@@ -1,14 +1,7 @@
-body {
-    background-color: #fff;
-    font-family: Roboto,Arial,Helvetica,sans-serif;
-}
 
-li {
-    display: list-item;
-}
 
 .products-wrapper {
-    padding-top: 30px;
+    margin-top: 2em;
 }
 
 .products-wrapper .shell {
@@ -23,25 +16,6 @@ li {
     display: flex;
 }
 
-.products-wrapper .shell .wrapper-left {
-    background-color: teal;
-    width: 350px;
-    flex: 1;
-}
-
-.wrapper-left .filter {
-    padding: 30px;
-    margin-top: 30px;
-    background-color: rgb(86, 212, 47);
-}
-
-.filter-nametext {
-    background-color: rgb(64, 47, 212);
-}
-
-.navigator {
-    background-color: chocolate;
-}
 
 .filter .navigator h4 {
     cursor: pointer;
@@ -52,32 +26,9 @@ li {
     text-transform: lowercase;
 }
 
-.products-wrapper .shell .wrapper-right {
-    background-color: tomato;
-    width: calc(100%-380px);
-    flex: 2;
-}
 
-.wrapper-right ul {
-    width: 100%;
+.wrapper-right{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1024px;
-    justify-content: flex-start;
 }
 
-.wrapper-right ul {
-    padding: 5px;
-}
-
-.shelf {
-    display: flex;
-    padding: 10px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    position: relative;
-    background-color: #fff;
-}
