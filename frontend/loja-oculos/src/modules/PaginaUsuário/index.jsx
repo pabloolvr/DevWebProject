@@ -23,7 +23,7 @@ export const PaginaUsuario = () => {
                     </nav>
                 </aside>
                 
-                {/*<section className="account-page">
+                <section className="account-page">
                     <div className="account-page-name">
 
                     </div>
@@ -84,7 +84,7 @@ export const PaginaUsuario = () => {
                         </div>
 
                     </div>                    
-    </section>*/}
+    </section>
             </div>
         </div>
     );

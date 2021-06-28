@@ -14,10 +14,6 @@ export const SetupRouter = () => {
     <Router>
       <NavBar></NavBar>
       <NavBar2></NavBar2>
-      <Route exact path="/minhaconta">
-        <PaginaUsuario />
-        <Profile />
-      </Route>
       <Switch>
         <Route exact path="/">
           <PaginaInicial></PaginaInicial>
@@ -27,6 +23,9 @@ export const SetupRouter = () => {
         </Route>
         <Route exact path="/minhaconta#/profile">
           <Profile></Profile>
+        </Route>
+        <Route exact path="/minhaconta">
+          <PaginaUsuario />
         </Route>
         <Route exact path="/sacola">
           <Sacola></Sacola>
