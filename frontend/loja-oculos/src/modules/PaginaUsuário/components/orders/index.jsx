@@ -17,13 +17,12 @@ export const PaginaUsuario = () => {
                     </div>
                     <nav className="links-menu">
                         <Link to="#/profile" className="store-btn">Dados Pessoais</Link><br></br>
-                        <Link to="/minhaconta/#/cards" className="store-btn">Cartões</Link><br></br>
-                        <Link to="/minhaconta/#/addresses" className="store-btn">Endereços</Link><br></br>
-                        <Link to="/minhaconta/#/orders" className="store-btn">Pedidos</Link><br></br>
+                        <Link to="#/cards" className="store-btn">Cartões</Link><br></br>
+                        <Link to="#/addresses" className="store-btn">Endereços</Link><br></br>
+                        <Link to="#/orders" className="store-btn">Pedidos</Link><br></br>
                     </nav>
                 </aside>
-                
-                {/*<section className="account-page">
+                <section className="account-page">
                     <div className="account-page-name">
 
                     </div>
@@ -84,7 +83,7 @@ export const PaginaUsuario = () => {
                         </div>
 
                     </div>                    
-    </section>*/}
+                </section>
             </div>
         </div>
     );

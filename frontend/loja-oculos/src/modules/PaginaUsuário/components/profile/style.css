@@ -1,0 +1,50 @@
+* {
+    border: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    outline: 0    
+}
+
+.account-page {
+    border-style: solid;
+    margin: 1px;
+    border-color: black;
+}
+
+.account-page-body {
+    padding: .75rem;
+}
+
+.data-field {
+    display: flex;
+}
+
+.field-name {
+    color: black;
+    width:max-content;
+}
+
+
+.data-field {
+    margin-bottom: 3rem;
+}
+
+.field-name {
+    margin-bottom: 12px;
+}
+
+.field {
+    color: #888;
+}
+.field .field-name {
+    font-size: 12px;
+}
+
+a.b--action-primary {
+    border-left-color: #000;
+    font-weight: 700;
+    color: #000;
+}

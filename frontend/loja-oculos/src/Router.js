@@ -7,6 +7,7 @@ import { PaginaInicial } from "./modules/PaginaInicial";
 import { Sacola } from "./modules/Sacola";
 import { FinalizarCompra } from "./modules/FinalizarCompra";
 import { PaginaUsuario } from "./modules/PaginaUsuário";
+import { Profile } from "./modules/PaginaUsuário/components/profile";
 
 export const SetupRouter = () => {
   return (
@@ -22,6 +23,9 @@ export const SetupRouter = () => {
         </Route>
         <Route exact path="/minhaconta">
           <PaginaUsuario></PaginaUsuario>
+        </Route>
+        <Route exact path="/minhaconta#/profile">
+          <Profile></Profile>
         </Route>
         <Route exact path="/sacola">
           <Sacola></Sacola>
