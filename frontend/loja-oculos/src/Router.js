@@ -14,15 +14,16 @@ export const SetupRouter = () => {
     <Router>
       <NavBar></NavBar>
       <NavBar2></NavBar2>
+      <Route exact path="/minhaconta">
+        <PaginaUsuario />
+        <Profile />
+      </Route>
       <Switch>
         <Route exact path="/">
           <PaginaInicial></PaginaInicial>
         </Route>
         <Route exact path="/loja">
           <Loja></Loja>
-        </Route>
-        <Route exact path="/minhaconta">
-          <PaginaUsuario></PaginaUsuario>
         </Route>
         <Route exact path="/minhaconta#/profile">
           <Profile></Profile>
