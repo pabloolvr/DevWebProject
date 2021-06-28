@@ -6,26 +6,20 @@ import { dados } from "../../mocks/loja";
 import { observer } from "mobx-react";
 import { CartComponent } from "../common/Cart";
 
-
-export const PaginaInicial = observer(()=>{
+export const PaginaInicial = observer(() => {
   return (
     <div>
-      <CartComponent/>
+      <CartComponent />
       <div className="container">
-      <SideOption></SideOption>
+        <SideOption></SideOption>
         <div className="buy-container">
           <div className="products">
             {dados.map((item) => {
-              return (
-                <Card
-                  key={item.id.toString()}
-                  props={item}
-                ></Card>
-              );
+              return <Card key={item.id.toString()} props={item}></Card>;
             })}
           </div>
         </div>
       </div>
     </div>
   );
-})
+});
