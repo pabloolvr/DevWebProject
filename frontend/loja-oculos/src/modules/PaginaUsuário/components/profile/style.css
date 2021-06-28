@@ -1,11 +1,72 @@
-* {
-    border: 0;
-    list-style: none;
+
+.user-page {
+    background-color: #ffff;
+    overflow: hidden;
+}
+
+.account-menu {
+  width: 277px;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding: 0;
+  margin-right: 0;
+  float: right;
+  font-style: italic;
+}
+
+.links-menu {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-userpage {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f6f6f6;
+    justify-content: center;
+}
+
+.header-userinfo {
+    padding: 20px 0;
+    margin-bottom: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.user-image-box {
+    width: 60px;
+    height: 60px;
+}
+
+.user-greeting span {
+    font-weight: bold;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
+    text-align: center;
+    line-height: 4em;
+    text-transform: uppercase;
+}
+
+.user-page-link {
     margin: 0;
-    padding: 0;
-    text-decoration: none;
-    vertical-align: baseline;
-    outline: 0    
+    position: relative;
+    padding-left: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;  
+}
+
+.quit {
+    color: red;
 }
 
 .account-page {
@@ -14,37 +75,86 @@
     border-color: black;
 }
 
+.page-title {
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    color: #000;
+    line-height: 100px;
+    font-size: 32px;
+    font-weight: 600;
+    font-weight: bold;
+}
+
 .account-page-body {
+    display: flex;
+    flex-direction: row;
     padding: .75rem;
+}
+
+.account-info {
+    padding-right: 1rem;
+}
+
+.account-info-fields {
+    width: 50rem;
+    padding: 30px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0.11rem;
+    border-radius: 0.25rem;
 }
 
 .data-field {
     display: flex;
-}
-
-.field-name {
-    color: black;
-    width:max-content;
-}
-
-
-.data-field {
+    flex-direction: column;
     margin-bottom: 3rem;
+    border-color: #eee;
+    border-width: 0.125rem;
 }
 
 .field-name {
+    font-weight: 500;
+    color: black;
     margin-bottom: 12px;
 }
 
 .field {
     color: #888;
 }
-.field .field-name {
-    font-size: 12px;
+
+.footer-area {
+    display: flex;
+    justify-content: flex-end;
 }
 
-a.b--action-primary {
-    border-left-color: #000;
-    font-weight: 700;
-    color: #000;
+.edit-info-btn {
+  border-style: none;
+  height: 3em;
+  width: 200px;
+  background-color: black;
+  border-radius: 0.5em;
+}
+
+.edit-info-btn:hover {
+    cursor: pointer;
+}
+
+.editing-page {
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;  
+    text-decoration: none;
+}
+
+.password-field {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.11rem;
+    border-radius: 0.25rem;
 }
