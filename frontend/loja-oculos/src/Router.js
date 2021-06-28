@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Dashboard from './components/Dashboard/Dashboard';
+import Preferences from './components/Preferences/Preferences';
 import { NavBar } from "./modules/common/NavBar";
 import { NavBar2 } from "./modules/common/NavBar2";
 import { Loja } from "./modules/Loja";
@@ -20,6 +22,12 @@ export const SetupRouter = () => {
         </Route>
         <Route exact path="/loja">
           <Loja></Loja>
+        </Route>
+        <Route path="/dashboard">
+          <Dashboard />
+        </Route>
+        <Route path="/preferences">
+          <Preferences />
         </Route>
         <Route exact path="/minhaconta#/profile">
           <Profile></Profile>
