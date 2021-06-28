@@ -9,3 +9,5 @@ app.use('/login', (req, res) => {
         token: 'test123'
     });
 });
+
+app.listen(8080, () => console.log('API is running on http://localhost:8080/login'));

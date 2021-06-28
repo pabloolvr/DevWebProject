@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import Login from '../../components/Login/Login';
 import { Link } from "react-router-dom";
 import './style.css'
+import useToken from '../../components/App/useToken';
 
 export const PaginaUsuario = () => {
-    const [token, setToken] = useState();
+    const {token, setToken} = useToken();
 
     if (!token) {
         return <Login setToken={setToken} />
@@ -27,12 +28,13 @@ export const PaginaUsuario = () => {
                         <Link to="/minhaconta/#/cards" className="store-btn">Cartões</Link><br></br>
                         <Link to="/minhaconta/#/addresses" className="store-btn">Endereços</Link><br></br>
                         <Link to="/minhaconta/#/orders" className="store-btn">Pedidos</Link><br></br>
+                        <Link to="/minhaconta/#/orders" className="store-btn">Sair</Link><br></br>
                     </nav>
                 </aside>
                 
                 <section className="account-page">
                     <div className="account-page-name">
-
+                        <div className="page-title">Dados Pessoais</div>
                     </div>
                     <div className="account-page-body">
                         <div className="account-info-container">

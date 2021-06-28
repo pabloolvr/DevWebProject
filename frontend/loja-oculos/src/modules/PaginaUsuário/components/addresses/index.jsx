@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './style.css'
 
-export const PaginaUsuario = () => {
+export const PaginaUsuarioAddresses = () => {
     return (
         <div className="user-page">
             <div className="container">
