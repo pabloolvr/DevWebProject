@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from 'react';
+import Login from '../../components/Login/Login';
 import { Link } from "react-router-dom";
 import './style.css'
 
 export const PaginaUsuario = () => {
+    const [token, setToken] = useState();
+
+    if (!token) {
+        return <Login setToken={setToken} />
+    }
+
     return (
         <div className="user-page">
             <div className="container">
