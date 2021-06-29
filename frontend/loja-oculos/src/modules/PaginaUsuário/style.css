@@ -1,0 +1,10 @@
+.container-userpage {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f6f6f6;
+    justify-content: center;
+}

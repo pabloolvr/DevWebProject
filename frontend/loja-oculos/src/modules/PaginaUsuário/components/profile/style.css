@@ -1,80 +1,12 @@
 
-.user-page {
-    background-color: #ffff;
-    overflow: hidden;
-}
 
-.account-menu {
-  width: 277px;
-  padding-left: 15px;
-  margin-left: 15px;
-  padding: 0;
-  margin-right: 0;
-  float: right;
-  font-style: italic;
-}
-
-.links-menu {
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-}
-
-.container-userpage {
-    width: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background-color: #f6f6f6;
-    justify-content: center;
-}
-
-.header-userinfo {
-    padding: 20px 0;
-    margin-bottom: 0;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-}
-
-.user-image-box {
-    width: 60px;
-    height: 60px;
-}
-
-.user-greeting span {
-    font-weight: bold;
-    font-family: Roboto,Arial,Helvetica,sans-serif;
-    font-size: 14px;
-    line-height: 14px;
-    color: #000;
-    text-align: center;
-    line-height: 4em;
-    text-transform: uppercase;
-}
-
-.user-page-link {
-    margin: 0;
-    position: relative;
-    padding-left: 20px;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #999;  
-}
-
-.quit {
-    color: red;
-}
-
+/*
 .account-page {
     border-style: solid;
     margin: 1px;
     border-color: black;
 }
-
+*/
 .page-title {
     font-family: Roboto,Arial,Helvetica,sans-serif;
     color: #000;

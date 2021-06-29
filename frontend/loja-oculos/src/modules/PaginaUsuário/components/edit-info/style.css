@@ -1,0 +1,33 @@
+.input-box {
+    border: 2px solid #eee;
+    border-radius: 2px;
+    color: #000;
+    background-color: #fff;
+    opacity: 1;
+    height: 40px;
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.account-info-inputs {
+    width: 30rem;
+}
+/*
+.edit-info-btn {
+  border-style: none;
+  height: 3em;
+  width: 200px;
+  background-color: black;
+  border-radius: 0.5em;
+}
+
+.edit-info-btn:hover {
+    cursor: pointer;
+}
+*/
+.save-btn {
+    width: 100%;
+}

@@ -3,7 +3,7 @@ import TabRenderer from "./TabRenderer";
 //import React, { useState } from 'react';
 import Login from '../../components/Login/Login';
 //import { Link } from "react-router-dom";
-//import './style.css'
+import './style.css'
 import useToken from '../../components/App/useToken';
 import { MenuUsuario } from "./components/usermenu";
 
@@ -11,12 +11,11 @@ class PaginaUsuario extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            userPageTab: 0
+            userPageTab: 4
         };
     }
 
     render() {
-
         return (
             <div className="user-page">
                 <div className="container-userpage">
@@ -50,7 +49,7 @@ class PaginaUsuario extends Component {
                         </nav>
                     </aside>
                     ----*/}
-                    <TabRenderer userPageTab={0} />
+                    <TabRenderer userPageTab={this.state.userPageTab} />
                     {/*----
                     <section className="account-page">
                         <div className="account-page-name">

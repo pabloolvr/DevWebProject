@@ -1,5 +1,10 @@
 import React from "react";
 import { Profile } from "./components/profile";
+import { Enderecos } from "./components/addresses";
+import { Cartoes } from "./components/cards";
+import { Pedidos } from "./components/orders";
+import { EditarDados } from "./components/edit-info";
+import { RedefinirSenha } from "./components/redefine-password";
 
 const TabRenderer = props => {
     let { userPageTab } = props;
@@ -9,13 +14,19 @@ const TabRenderer = props => {
             return <Profile></Profile>;
             break;
         case 1: // endereços
-            return <button>Login</button>;
+            return <Enderecos></Enderecos>;
             break;
         case 2: // cartoes
-            return <button>Login</button>;
+            return <Cartoes></Cartoes>;
             break;
         case 3: // pedidos
-            return <button>Logout</button>;
+            return <Pedidos></Pedidos>;
+            break;
+        case 4: // editar dados
+            return <EditarDados></EditarDados>
+            break;
+        case 5: // alterar senha
+            return <RedefinirSenha></RedefinirSenha>
             break;
         default:
             return null;
