@@ -19,11 +19,13 @@ export const MenuUsuario = () => {
                 <div className="nav-option">
                     <Link to="#/profile" className="user-page-link">Dados Pessoais</Link>
                 </div>
+                {/*
                 <div className="nav-option">
                     <Link to="/minhaconta/#/cards" className="user-page-link">Cartões</Link>
                 </div>
+                */}
                 <div className="nav-option">
-                    <Link to="/minhaconta/#/addresses" className="user-page-link">Endereços</Link>
+                    <Link to="/minhaconta/#/addresses" className="user-page-link">Endereço</Link>
                 </div>
                 <div className="nav-option">
                     <Link to="/minhaconta/#/orders" className="user-page-link">Pedidos</Link>

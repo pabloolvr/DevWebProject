@@ -10,10 +10,14 @@
 .page-title {
     font-family: Roboto,Arial,Helvetica,sans-serif;
     color: #000;
-    line-height: 100px;
+    line-height: 50px;
     font-size: 32px;
     font-weight: 600;
     font-weight: bold;
+}
+
+.account-page-name {
+    padding: .75rem;
 }
 
 .account-page-body {

@@ -11,7 +11,7 @@ export const NavBar = () => {
     
     <Busca></Busca>
     <ul>
-      <li><Link to="/minhaconta" className="main-page-btn">Minha Conta</Link></li>
+      <li><Link to="/minhaconta#/profile" className="main-page-btn">Minha Conta</Link></li>
       <li><Link to="/sacola" className="main-page-btn">Sacola</Link></li>
     </ul>
   </div>);

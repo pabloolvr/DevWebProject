@@ -23,18 +23,23 @@ export const SetupRouter = () => {
         <Route exact path="/loja">
           <Loja></Loja>
         </Route>
-        <Route path="/dashboard">
-          <Dashboard />
-        </Route>
-        <Route path="/preferences">
-          <Preferences />
-        </Route>
-        <Route exact path="/minhaconta#/profile">
-          <MinhaConta></MinhaConta>
-        </Route>
         <Route exact path="/minhaconta">
           <MinhaConta></MinhaConta>
         </Route>
+{/*
+        <Route exact path="/minhaconta#/profile">
+          <MinhaConta></MinhaConta>
+        </Route>
+        <Route exact path="/minhaconta#/cards">
+          <MinhaConta></MinhaConta>
+        </Route>
+        <Route exact path="/minhaconta#/addresses">
+          <MinhaConta></MinhaConta>
+        </Route>
+        <Route exact path="/minhaconta#/orders">
+          <MinhaConta></MinhaConta>
+        </Route>
+*/}
         <Route exact path="/sacola">
           <Sacola></Sacola>
         </Route>

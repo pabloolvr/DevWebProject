@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PaginaUsuario from '../../PaginaUsuario'
 import './style.css'
 
-export const EditarDados = () => {
+export const EditarEndereço = () => {
     return (
         <section className="account-page">
             <div className="account-page-name">
@@ -15,49 +15,57 @@ export const EditarDados = () => {
                                     <svg className="arrow-left-icon"></svg>
                                 </span>
                             </span>
-                            Dados Pessoais
+                            Endereço
                         </div>
                         <Link to="/minhaconta" className="editing-page"></Link>
                     </button>
                 </div>
-                <div className="page-title">Editar Dados Pessoais</div>
+                <div className="page-title">Editar Endereço</div>
             </div>
             <div className="account-page-body">
                 <div className="account-info-container">
                     <div className="account-info">
                         <div className="account-info-fields account-info-inputs">
                             <div className="data-field">
-                                <div className="field-name">Nome Completo</div>
+                                <div className="field-name">Logradouro</div>
                                 <div className="field">
-                                    <input className="input-box" name="fullName" maxLength="100" type="text"></input>
+                                    <input className="input-box" name="addressName" maxLength="100" type="text"></input>
                                 </div>
                             </div>
                             <div className="data-field">
-                                <div className="field-name">CPF</div>
+                                <div className="field-name">Número</div>
                                 <div className="field">
-                                    <input className="input-box" name="cpf" maxLength="20" type="text"></input>
+                                    <input className="input-box" name="addresNumber" type="number"></input>
                                 </div>
                             </div>
                             <div className="data-field">
-                                <div className="field-name">Telefone</div>
+                                <div className="field-name">Bairro</div>
                                 <div className="field">
-                                    <input className="input-box" name="phone" maxLength="20" placeholder="Opcional" type="text"></input>
+                                    <input className="input-box" name="district" maxLength="20" type="text"></input>
                                 </div>
                             </div>
                             <div className="data-field">
-                                <div className="field-name">Gênero</div>
+                                <div className="field-name">Cidade</div>
                                 <div className="field">
-                                    <select className="input-box" name="gender">
-                                        <option value="male">Opcional</option>
-                                        <option value="male">Masculino</option>
-                                        <option value="female">Feminino</option>
-                                    </select>
+                                    <input className="input-box" name="city" maxLength="50" type="text"></input>
                                 </div>
                             </div>
                             <div className="data-field">
-                                <div className="field-name">Data de Nascimento</div>
+                                <div className="field-name">Estado</div>
                                 <div className="field">
-                                    <input className="input-box" name="birthDate" placeholder="Opcional" type="date"></input>
+                                    <input className="input-box" name="state" maxLength="50" type="text"></input>
+                                </div>
+                            </div>
+                            <div className="data-field">
+                                <div className="field-name">CEP</div>
+                                <div className="field">
+                                    <input className="input-box" name="cepNumber" maxLength="20" type="text"></input>
+                                </div>
+                            </div>
+                            <div className="data-field">
+                                <div className="field-name">País</div>
+                                <div className="field">
+                                    <input className="input-box" name="country" maxLength="50" type="text"></input>
                                 </div>
                             </div>
                             <div className="footer-area">
