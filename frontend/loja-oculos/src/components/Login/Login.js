@@ -30,6 +30,9 @@ export default function Login({ setToken }) {
 
     return (
         <div className="login-wrapper">
+            Pra poder fazer o login tem que rodar o server expresso usando o cors.<br></br>
+            Pra poder rodar o server tem que ter o cors instalado, ele é instalado com o comando: 'npm install --save-dev express cors'<br></br>
+            Agora pra rodar o server é só dar o comando: 'node server.js'
             <h1>Por favor faça login</h1>
             <form onSubmit={handleSubmit}>
                 <label>
@@ -43,6 +46,7 @@ export default function Login({ setToken }) {
                 <div>
                     <button type="submit">Submit</button>
                 </div>
+                
             </form>
         </div>
     )
