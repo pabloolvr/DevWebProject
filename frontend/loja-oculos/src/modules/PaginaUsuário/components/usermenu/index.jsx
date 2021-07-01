@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 //import Login from '../../components/Login/Login';
 import { Link } from "react-router-dom";
 import './style.css'
-//import useToken from '../../components/App/useToken';
+import Login from '../../../../components/Login/Login';
+import useToken from '../../../../components/App/useToken';
+
+function logout() {
+    // remove user from local storage to log user out
+    localStorage.removeItem('token');
+}
 
 export const MenuUsuario = () => {
     return (
@@ -25,13 +31,13 @@ export const MenuUsuario = () => {
                 </div>
                 */}
                 <div className="nav-option">
-                    <Link to="/minhaconta/#/addresses" className="user-page-link">Endereço</Link>
+                    <Link to="/minhaconta#/addresses" className="user-page-link">Endereço</Link>
                 </div>
                 <div className="nav-option">
-                    <Link to="/minhaconta/#/orders" className="user-page-link">Pedidos</Link>
+                    <Link to="/minhaconta#/orders" className="user-page-link">Pedidos</Link>
                 </div>
                 <div className="nav-option">
-                    <Link to="/minhaconta" className="user-page-link quit">Sair</Link>
+                    <Link onClick={logout()} to="/" className="user-page-link quit">Sair</Link>
                 </div>
             </nav>
         </aside>

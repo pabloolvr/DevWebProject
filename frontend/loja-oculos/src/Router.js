@@ -9,7 +9,9 @@ import { PaginaInicial } from "./modules/PaginaInicial";
 import { Sacola } from "./modules/Sacola";
 import { FinalizarCompra } from "./modules/FinalizarCompra";
 import { MinhaConta } from "./modules/PaginaUsuário";
-import { Profile } from "./modules/PaginaUsuário/components/profile";
+import { DadosPessoais } from "./modules/PaginaUsuário/components/profile";
+import { Enderecos } from "./modules/PaginaUsuário/components/address";
+import { Pedidos } from "./modules/PaginaUsuário/components/orders";
 
 export const SetupRouter = () => {
   return (
@@ -26,20 +28,15 @@ export const SetupRouter = () => {
         <Route exact path="/minhaconta">
           <MinhaConta></MinhaConta>
         </Route>
-{/*
         <Route exact path="/minhaconta#/profile">
-          <MinhaConta></MinhaConta>
-        </Route>
-        <Route exact path="/minhaconta#/cards">
-          <MinhaConta></MinhaConta>
+          <DadosPessoais></DadosPessoais>
         </Route>
         <Route exact path="/minhaconta#/addresses">
-          <MinhaConta></MinhaConta>
+          <Enderecos></Enderecos>
         </Route>
         <Route exact path="/minhaconta#/orders">
-          <MinhaConta></MinhaConta>
+          <Pedidos></Pedidos>
         </Route>
-*/}
         <Route exact path="/sacola">
           <Sacola></Sacola>
         </Route>
