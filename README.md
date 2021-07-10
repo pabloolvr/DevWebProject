@@ -30,8 +30,8 @@ Navigation Diagram:
 ## Execution procedure
  - Install NodeJS and NPM from https://nodejs.org/en/download/.
  - Download or clone the project source code.
- - Install all required npm packages by running 'npm install' from the command line in the project root folder 'loja-oculos' (where the package.json is located).
- - Start the application by running 'npm run start' from the command line in the project root folder .
+ - Install all required npm packages by running ```npm install``` from the command line in the project root folder ```\DevWebProject\frontend\loja-oculos``` (where the package.json is located).
+ - Start the application by running ```npm run start``` from the command line in the project root folder .
  - Your browser should automatically open at http://localhost:3000
 ## Issues
  Comments
